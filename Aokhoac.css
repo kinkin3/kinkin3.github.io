@@ -1,0 +1,133 @@
+body{
+    width: 1500px;
+    height: 1600px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}.col-25{
+    width: 33.33%;
+    float: left;
+    
+}
+.prod{
+   border-radius: 10px ; 
+   box-shadow: 0px 0px 5px red;
+   padding: 20px;
+   margin: 10px;
+   border: 1px solid gray;
+   text-align: center;
+   position: relative;
+   
+}
+.prod > .image{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+.prod > .name{
+    color: red;
+    margin-left: 40px;
+    font-variant: small-caps;
+    margin: 5px;
+
+}
+.prod >.price{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+.prod > .icon{
+    position: absolute;
+    right: 30px;
+    bottom: 70px;
+    width: 20px;
+    height: 5px;
+    margin: 5px;
+}
+.prod > .new-icon{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}.prod > .new-icon img{
+    width: 50px;
+    padding: 5px;
+}.prod > .icon img{
+    width: 50px;
+    height: 20px;
+       
+    
+    
+}
+.menu{
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+}
+nav{
+    height: 39px;
+    background-color: red;
+    
+}
+nav .search{
+    line-height: 39px;
+    float: right;
+    margin-right: 25px;
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px blue;
+ 
+ }
+ .img{
+     background-image: url(img/anh49.jfif);
+     width: 100%;
+     height: 300px;
+ }
+ 
+ button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px yellow;
+ 
+}
+.image:hover{
+    box-shadow: 3px 7px brown;
+    background-color: rgb(74, 175, 141);
+}
+.chut-chut:hover{
+    box-shadow: 3px 7px wheat;
+    background-color: rgb(74, 175, 141);
+
+}
+.hang1{
+    float: left;
+    position: relative;
+    padding: 100px;
+}
+.hang1>a{
+    text-decoration: none;
+}
+
+.hang1>a:hover{
+    color: aquamarine;
+}

@@ -1,0 +1,39 @@
+.form{
+    border: 2px;
+}
+
+.img img{
+    width: 100%;
+    height: 500px;
+}
+.form button:hover{
+    box-shadow: 3px 7px wheat;
+    background-color: red
+}
+.hang1{
+    float: left;
+    margin-top: 150px;
+    padding: 20px;
+    
+}
+.form{
+    float: left;
+    padding: 10px;
+    
+   
+}
+.hang1>a{
+    text-decoration: none;
+
+}
+.img a{
+    text-decoration: none;
+}
+.img a{
+    color: rgb(231, 21, 32);
+    font-size:   large;
+   
+}
+.img{
+    color: aqua;
+}

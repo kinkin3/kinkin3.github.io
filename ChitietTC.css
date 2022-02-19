@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 1200px;
+}
+
+.header{
+    width: 100%;
+    background-color: red;
+    height: 200px;
+    background-image: url(img/anh69.jpg);
+}
+.chon{
+    width: 100%;
+    background-color: wheat;
+    height: 50px;
+    float: left;
+}
+.search{
+    float: right;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.dep{
+    width: 100%;
+    float: left;
+
+}
+.Nhac{
+    float: left;
+    width: calc(60% - 20px) ;
+}
+.hinh{
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+
+}
+.hinh img{
+    width: 100%;
+    
+}
+.button:hover{
+    box-shadow: 3px 7px wheat;
+    background-color: rgb(226, 11, 11);
+
+}
+
