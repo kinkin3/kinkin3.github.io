@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:#333;
+	background: pink;
+
+}
+.love,.yes,.no{padding-top: 100px;
+		
+}
+.love span{color: wheat;}
+h2{font-size: 62px;margin-bottom: 10px;}
+a{font-size: 24px;text-decoration: none;padding: 5px 10px;
+	margin-top: 200px;border:3px solid #ddd; border-radius: 10px;}
+#no{color:red; background: #eee;margin-right: 500px;}
+#yes{color:green;background: #eee; margin-left: 300px; position: relative; }
+
+.yes img{
+	height: 310px;
+	width: 310px;
+	animation: image 4s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
+   a:hover{
+	color: yellow;
+}
+.love img{
+    width: 50px;
+	margin-top: 5px;
+	padding-right: 70px;
+
+}.anh2 img{
+    width: 250px;
+}
+.co1{
+    margin-bottom:900px;
+}
